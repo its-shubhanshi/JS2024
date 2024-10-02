@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      ::before,
+      ::after {
+        margin: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      body {
+        font: 16px/1.3 system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+          Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      button {
+        cursor: pointer;
+      }
+      [disabled] {
+        cursor: not-allowed;
+      }
+
+      .container {
+        width: 1200px;
+        background-color: lightgoldenrodyellow;
+        margin: auto;
+        padding: 10px;
+      }
+      .btn {
+        margin: 5px 0;
+        border: 1px solid gray;
+        padding: 5px 12px;
+        background: transparent;
+        border-radius: 5px;
+        display: inline-block;
+        color: inherit;
+        height: 36px;
+        vertical-align: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Js Loop</h1>
+      <label title="yr"
+        ><select class="year">
+          <option selected disabled>--Choose Year--</option>
+        </select></label
+      >
+      <label title="month"
+        ><select class="month">
+          <option selected disabled>--Choose Month--</option>
+        </select></label
+      >
+      <label title="date"
+        ><select class="date">
+          <option selected disabled>--Choose Date--</option>
+        </select></label
+      >
+    </div>
+    <!--<script>
+          "use strict";
+
+
+
+          for (let year = 1990; year <= 2024; year++) {
+            document.querySelector(".year").innerHTML += `<option>${year}</option>`;
+
+            for (let month = 1; month <= 12; month++) {
+              document.querySelector(
+                ".month"
+              ).innerHTML += `<option>${month}</option>`;
+            }
+
+
+          /*  if(month==4|| month||6 || month|| 9 || month==11){
+                for (i = 1; i <= 30; i++) {
+                document.querySelector(
+                  ".date"
+                ).innerHTML += `<option>${i}</option>`;
+              }
+            }
+            elseif(month==2){
+              if (year % 400 == 0 || year % 4 == 0 || year % 100 != 0) {
+                  for (let i = 1; i <= 29; i++) {
+                      document.querySelector(".date").innerHTML += `<option>${i}</option>`;
+                  }
+              }
+        }
+              else{
+                 for (i = 1; i <= 31; i++) {
+                document.querySelector(
+                  ".date"
+                ).innerHTML += `<option>${i}</option>`;
+              }
+              }
+      }
+*/
+    </script>-->
+
+    <script src="task.js"></script>i
+  </body>
+</html>
